@@ -35,6 +35,16 @@
                 });
         } );
     </script>
+    <style>
+        .custom {
+            border: none; border-collapse: collapse; 
+        }
+        .custom td { border-left: 1px solid #000; }
+        .custom td:first-child { border-left: none; }
+        .custom th { border-left: 1px solid #000; }
+        .custom th:first-child { border-left: none; }
+    </style>
+    
     
 </head>
 <body style="margin:15px;padding:15px;background-color:#FAFAFA">
@@ -43,16 +53,17 @@
 
 <h2><font color="0AA78E"><strong>Links to data</strong></font></h2>
 </br>
-<p>Updated on: 26/03/2020 12:05:16</p>
+<p>Updated on: 26/03/2020 13:15:19</p>
 
 <!--
 <p>Some text in case it's needed</p>
 -->
 <style>
 table thead th {text-align: left;} 
+
 </style>
 
-<table border="0" class="dataframe table-striped" id="Qtable">
+<table border="0" class="dataframe table custom" id="Qtable">
   <thead>
     <tr style="text-align: right;">
       <th>By country</th>
