@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,11 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                        { "width": "20%" },
+                        null
+                    ]
                 });
         } );
     </script>
@@ -43,7 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -63,7 +68,7 @@
     </tr>
     <tr>
       <th>Do you have dedicated arrangements in place for communicating science advice and for refuting misleading information to the public on Covid-19?</th>
-      <td>Accurate information is provided through multiple measures such as the website of the Ministry of Health, Labour and Welfare (MHLW).<br>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00001.html</td>
+      <td>Accurate information is provided through multiple measures such as the website of the Ministry of Health, Labour and Welfare (MHLW).<br><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/dengue_fever_qa_00001.html" target="_blank">https://www.mhlw.go.jp/stf/seisakunitsui...</a></td>
     </tr>
     <tr>
       <th>What new STI policy measures, if any, is your country taking to respond specifically to the Covid-19 crisis?</th>
@@ -83,7 +88,7 @@
     </tr>
     <tr>
       <th>What impact on the STI system do you anticipate in the short-, medium- and long-term, and what measures are you implementing to address those?</th>
-      <td>In the short-term, research exchanges and international research collaboration are expected to stagnate due to restrictions on overseas travel. MEXT has permitted the flexible use of funds for the support of researchers' overseas travel, and has been working to ensure that research exchanges will be promoted as usual after the situation is improved.<br>In the medium- and long-term, it is expected that private investment for R&amp;D will decrease due to economic recession. Additionally, the needs of providing scientific evidence in order to adequately respond to infectious diseases and the importance of further deepening international cooperation for addressing infectious diseases will grow. It is necessary to establish a framework for sharing knowledge and data on infectious diseases of each country.<br></td>
+      <td>In the short-term, research exchanges and international research collaboration are expected to stagnate due to restrictions on overseas travel. MEXT has permitted the flexible use of funds for the support of researchers&#39; overseas travel, and has been working to ensure that research exchanges will be promoted as usual after the situation is improved.<br>In the medium- and long-term, it is expected that private investment for R&amp;D will decrease due to economic recession. Additionally, the needs of providing scientific evidence in order to adequately respond to infectious diseases and the importance of further deepening international cooperation for addressing infectious diseases will grow. It is necessary to establish a framework for sharing knowledge and data on infectious diseases of each country.<br></td>
     </tr>
     <tr>
       <th>Is support of the STI system part of planned stimulus packages aimed at supporting the economy?</th>

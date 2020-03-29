@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,11 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                        { "width": "20%" },
+                        null
+                    ]
                 });
         } );
     </script>
@@ -43,7 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>

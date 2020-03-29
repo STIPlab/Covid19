@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,12 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                    null,
+                    { "width": "8%" },
+                    null
+                    ]
                 });
         } );
     </script>
@@ -42,10 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-<style>
-table thead th {text-align: left;} 
-
-</style>
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -63,52 +66,52 @@ table thead th {text-align: left;}
     </tr>
     <tr>
       <th>Austria</th>
-      <td>2020-03-27</td>
-      <td>The Austrian universities and research institutions are organized in multiple international platforms such as for example the European Academy of Sciences (EurASc), the European university networks or transnational initiatives such as CEPI (Coalition for Epidemic Preparedness Innovations).<br><br>EMBL-EBI (European Bioinformatics Institute) started to work with interested Member States to establish data hubs that can serve as a forum for data sharing amongst virologists from all over the world.<br><br>A current challenge is to step up our efforts in coordinating all these initiatives in order to create critical mass and to avoid unnecessary duplication.<br><br>Via the Horizon 2020 Health Programme Committee a list of the 8 most urgent research fields related to COVID-19 from von GLOPID-R (Global Research Collaboration for Infectious Disease Prevention) and WHO was distributed. This list could form the basis for a coordinated action in Europe.<br></td>
+      <td>2020-03-28</td>
+      <td>The Austrian universities and research institutions are organised in multiple international platforms, such as, for example, the European Academy of Sciences (EurASc), the European university networks, or transnational initiatives such as CEPI (Coalition for Epidemic Preparedness Innovations).<br><br>EMBL-EBI (European Bioinformatics Institute) has started to work with interested Member States to establish data hubs that can serve as a forum for data sharing among virologists from all over the world.<br><br>A current challenge is to step up our efforts in coordinating all these initiatives in order to create critical mass and to avoid unnecessary duplication.<br><br>Via the Horizon 2020 Health Programme Committee, a list of the 8 most urgent research fields related to COVID-19 from GLOPID-R (Global Research Collaboration for Infectious Disease Prevention) and the WHO has been distributed. This list could form the basis for a coordinated action in Europe.<br></td>
     </tr>
     <tr>
       <th>Belgium</th>
-      <td>2020-03-27</td>
-      <td>Belgium is contributing to the EU discussions in this area and participated in a successful way in the recent call for projects launched within the EU R&amp;I framework programme Horizon 2020 (4 out the 17 proposals selected for funding have at least one Belgian participant). Another European initiative in this area is the IMI2 JU call 21 (https://www.imi.europa.eu/apply-funding/open-calls/imi2-call-21).<br>Researchers from the Institute of Tropical Medicine (ITM), in Belgium, are being prepared to provide support to African countries with fragile health systems. ITM is monitoring the situation closely and is in touch with its partner countries in Africa. The Institute is available to support public health response and is considering studies to better understand the possible spread of the virus in these countries.<br></td>
+      <td>2020-03-28</td>
+      <td>Belgium is contributing to EU discussions in this area and has participated in a successful way in the recent call for projects launched within the EU R&amp;I framework programme Horizon 2020 (4 out the 17 proposals selected for funding have at least one Belgian participant). Another European initiative in this area is the IMI2 JU call 21 (<a href="https://www.imi.europa.eu/apply-funding/open-calls/imi2-call-21" target="_blank">https://www.imi.europa.eu/apply-funding/...</a>).<br><br>Researchers from the Institute of Tropical Medicine (ITM) in Belgium are preparing to provide support to African countries with fragile health systems. ITM is monitoring the situation closely and is in touch with its partner countries in Africa. The Institute is available to support public health responses and is considering studies to better understand the possible spread of the virus in these countries.<br></td>
     </tr>
     <tr>
       <th>Estonia</th>
-      <td>2020-03-27</td>
-      <td>Estonia is participating in EMBL and EOSC -  international infrastructures have responded to the pandemic by developing technical solutions to share and coordinate data (genomic, clinical, epidemiological data). Estonian researchers are closely involved in these activities through the linked projects.</td>
+      <td>2020-03-28</td>
+      <td>Estonia is participating in the European Molecular Biology Laboratory (EMBL) and the European Open Science Cloud (EOSC) - such international infrastructures have responded to the pandemic by developing technical solutions to share and coordinate data (genomic, clinical, epidemiological data). Estonian researchers are closely involved in these activities through linked projects.</td>
     </tr>
     <tr>
       <th>Finland</th>
-      <td>2020-03-26</td>
-      <td>The Ministry of Social Affairs and Health and the Finnish institute of Health and Welfare are liaising strongly with the ECDC and WHO. The Finnish R&amp;I sector is working closely together with its European and Global counterparts on the COVID19 to find ways to respond to the epidemic by using and leveraging on the existing collaborations, partnerships and projects (for example funded through European Commission.  A total of EUR 5 million is proposed for Finland's participation in the research and development of a COVID-19 vaccine: 4 million euros to CEPI (Coalition for Epidemic Preparedness and Innovation) and 1 million euros to IVI (International Vaccine Institute).</td>
+      <td>2020-03-28</td>
+      <td>The Ministry of Social Affairs and Health and the Finnish institute of Health and Welfare are liaising strongly with the ECDC and WHO. The Finnish R&amp;I sector is working closely together with its European and Global counterparts on the COVID19 to find ways to respond to the epidemic by using and leveraging on the existing collaborations, partnerships and projects (for example funded through the European Commission).  A total of EUR 5 million is proposed for Finland&#39;s participation in the research and development of a COVID-19 vaccine: EUR 4 million to CEPI (Coalition for Epidemic Preparedness and Innovation) and EUR 1 million to IVI (International Vaccine Institute).</td>
     </tr>
     <tr>
       <th>Germany</th>
-      <td>2020-03-27</td>
-      <td>The German Federal Ministry of Education and Research decided to support CEPI with additional 140 Mio. € to support R&amp;D on new vaccines against Covid-19.<br>The German Federal Ministry of Education and Research is collaborating with other funders under the roof of the WHO in the international funders network GloPID-R: https://www.glopid-r.org/ourwork/novel-coronavirus-covid-19/ in order to coordinate investments in research and development. <br><br>The German Federal Ministry of Health will provide WHO with additional financial support of 50 Mio. € for Covid-19. <br><br>The German Federal Ministry for Economic Cooperation and Development will increase measures of German bilateral and regional cooperation with reserve funds in the amount of € 20.82 million and will also examine further possibilities for short-term technical and financial support for the partner countries of German development cooperation. Regional focus is Africa. <br></td>
+      <td>2020-03-29</td>
+      <td>The German Federal Ministry of Education and Research decided to support CEPI with an additional 140 Mio. € to support R&amp;D on new vaccines against Covid-19.<br>The German Federal Ministry of Education and Research is collaborating with other funders under the roof of the WHO in the international funders network GloPID-R (see: <a href="https://www.glopid-r.org/ourwork/novel-coronavirus-covid-19/" target="_blank">https://www.glopid-r.org/ourwork/novel-c...</a>) in order to coordinate investments in research and development. <br><br>The German Federal Ministry of Health will provide WHO with additional financial support of 50 Mio. € for Covid-19. <br><br>The German Federal Ministry for Economic Cooperation and Development will increase measures of German bilateral and regional cooperation with reserve funds to the amount of € 20.82 million and will also examine further possibilities for short-term technical and financial support for the partner countries of German development cooperation. The regional focus is Africa. <br></td>
     </tr>
     <tr>
       <th>Greece</th>
-      <td>2020-03-27</td>
-      <td>At the European level, as for the priorities for EU coordinated R&amp;I action for COVID19, we support the initiatives and actions taken by the Commission especially on vaccines and treatment. We welcome the dedicated call of the Health Program with a budget of 47,5 M€.</td>
+      <td>2020-03-29</td>
+      <td>At the European level, as for the priorities for EU coordinated R&amp;I action for COVID19, we support the initiatives and actions taken by the European Commission, especially on vaccines and treatment. We welcome the dedicated call of the Health Program with a budget of 47,5 M€.</td>
     </tr>
     <tr>
       <th>Ireland</th>
-      <td>2020-03-27</td>
-      <td>No formal international level initiatives at present date<br><br>SFI’s C19 information portal is tracking relevant international Covid-19 STI responses in order to avoid duplication of effort, to identify areas where Ireland could join international efforts and/ or implement similar responses to other countries that are needed in Ireland also.<br></td>
+      <td>2020-03-29</td>
+      <td>There are no formal international level initiatives at the present time.<br><br>Science Foundation Ireland&#39;s C19 information portal is tracking relevant international Covid-19 STI responses in order to avoid duplication of effort, to identify areas where Ireland could join international efforts and / or implement similar responses to other countries that are needed in Ireland also.<br></td>
     </tr>
     <tr>
       <th>Israel</th>
-      <td>2020-03-24</td>
-      <td>We are trying to share relevant data supporting reserach</td>
+      <td>2020-03-29</td>
+      <td>We are trying to share relevant data supporting research.</td>
     </tr>
     <tr>
       <th>Italy</th>
-      <td>2020-03-27</td>
-      <td>SEE ANSWER TO Q1.b ABOVE</td>
+      <td>2020-03-29</td>
+      <td>See the response to question 1.</td>
     </tr>
     <tr>
       <th>Korea</th>
-      <td>2020-03-27</td>
+      <td>2020-03-28</td>
       <td>- Korea is participating in international COVID-19 response by inviting foreign researchers to Korean COVID-19 research projects or joining in international cooperative research projects on COVID-19.<br>- For example, a clinical research team from the WHO is going to participate in the cohort research led by Korean doctors on the virus’ cycle (infection-exacerbation-recovery).<br>- The International Vaccine Institute, located in Korea, formed an industry-academia-research institution consortium with Korean universities and biotech companies to develop a DNA vaccine for COVID-19 (GX-19).</td>
     </tr>
     <tr>
@@ -117,19 +120,19 @@ table thead th {text-align: left;}
       <td>There are many countries where high profile people is pouring in aid to alleviate the crisis. There plenty of trials that involve two or more countries to test new medicine and new ways of treatment. Researchers worldwide are working along with health companies to test new and old treatments such as interferon, hydroxcloroquine, and else. A trial in Seattle involving volunteers that had the virus was receiving aid and input from researchers across different countries.</td>
     </tr>
     <tr>
-      <th>New Zealand</th>
-      <td>2020-03-26</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
       <th>Norway</th>
       <td>2020-03-27</td>
-      <td>The Coalition for Epidemic Preparedness Innovations (CEPI) is a foundation that takes donations from public, private, philanthropic, and civil society organisations, to finance independent research projects to develop vaccines against emerging infectious disease (EID). CEPI is headquartered in Oslo, Norway. At the 2017 launch, Nature said, "It is by far the largest vaccine development initiative ever against viruses that are potential epidemic threats". In March 2020, CEPI was identified as a "key player in the race to develop a vaccine" for the coronavirus. <br><br>The Norwegian government  has recently proposed app. 200 mill. Euro to CEPI for the period 2020-2030.</td>
+      <td>The Coalition for Epidemic Preparedness Innovations (CEPI) is a foundation that takes donations from public, private, philanthropic, and civil society organisations, to finance independent research projects to develop vaccines against emerging infectious disease (EID). CEPI is headquartered in Oslo, Norway. At the 2017 launch, Nature said, &#34;It is by far the largest vaccine development initiative ever against viruses that are potential epidemic threats&#34;. In March 2020, CEPI was identified as a &#34;key player in the race to develop a vaccine&#34; for the coronavirus. <br><br>The Norwegian government  has recently proposed app. 200 mill. Euro to CEPI for the period 2020-2030.</td>
     </tr>
     <tr>
       <th>Portugal</th>
       <td>2020-03-28</td>
-      <td>The Ministry of Science, Technology and Higher Education, organized − in the scope of the Portugal in Europe Research and Innovation Network- PERIN − through the Portuguese Science and Technology Foundation, FCT, the National Agency for Clinical Research and Biomedical Innovation, AICIB, and the National Innovation Agency, ANI – a Task Force on  “Research and innovation for preventing Corona virus in Europe”   to give notice of the Portuguese actions and positions for potential enlarged EU joint ventures, which will gain from an enlarged European task force, for articulation of methodologies and, above all, validation/certification of analysis and the communication of results  for population at large. Initiatives which are being sought to be promoted and developed at international/European level include:<br>Need to develop Equipment and Devices: namely Testing kits (PCR and other methodologies), which require enlarging supply of materials and reagents at an European level; Fast development of ventilators for emergency rooms, which require specific valves and other components, available only in a few companies, as well as the adoption of protocols for safe operation (there is the need of coordination of several task forces in Europe beyond actions under the Open AIR project); Other innovative equipment, systems, solutions and devices, which require promoting European joint tasks for innovative products and systems able to generate low cost solutions to prevent the contamination of the virus and COVID-10.<br>Data systems and policy: COVID-19 information systems for population, with open data policy integrated with data analysis to provide orientations towards advising population at large for prevention measures, as well as to prevent false alarms. This initiative requires access to health data and information of tests of population at large as well as the mobilization of data scientists, and which will gain from an enlarged European task force, for articulation of methodologies and, above all, validation/certification of analysis and the communication of results for population at large.<br>New solutions/interventions: Coordination of national task forces to foster user-driven innovation and new science-based solutions, which will gain from an enlarged European task force.<br>Vaccine/new therapies: Need for a major European task force and cooperation to help developing a vaccine and other potential therapies, with major Portuguese biochemical firms working already with international consortia, with tests in China and elsewhere.<br>Science and society - Social remediation and promotion of social and human actions to foster social resilience: There is a need of European coordination of a task force on risk perception and the development of actions towards the promotion of scientific culture and social engagement towards resilient societies.<br>Distance education and telework: The sudden strong development and engagement by all higher education institutions in Portugal, with a massive adoption of distance education schemes, highlights the need of European coordination of task force to foster the exchange of schemes, methodologies and practices.<br></td>
+      <td>The Ministry of Science, Technology and Higher Education, organized − in the scope of the Portugal in Europe Research and Innovation Network- PERIN − through the Portuguese Science and Technology Foundation, FCT, the National Agency for Clinical Research and Biomedical Innovation, AICIB, and the National Innovation Agency, ANI – a Task Force on  “Research and innovation for preventing Corona virus in Europe”   to give notice of the Portuguese actions and positions for potential enlarged EU joint ventures, which will gain from an enlarged European task force, for articulation of methodologies and, above all, validation/certification of analysis and the communication of results  for population at large. Initiatives which are being sought to be promoted and developed at international/European level include:<br>- Need to develop Equipment and Devices: namely Testing kits (PCR and other methodologies), which require enlarging supply of materials and reagents at an European level; Fast development of ventilators for emergency rooms, which require specific valves and other components, available only in a few companies, as well as the adoption of protocols for safe operation (there is the need of coordination of several task forces in Europe beyond actions under the Open AIR project); Other innovative equipment, systems, solutions and devices, which require promoting European joint tasks for innovative products and systems able to generate low cost solutions to prevent the contamination of the virus and COVID-10.<br>- Data systems and policy: COVID-19 information systems for population, with open data policy integrated with data analysis to provide orientations towards advising population at large for prevention measures, as well as to prevent false alarms. This initiative requires access to health data and information of tests of population at large as well as the mobilization of data scientists, and which will gain from an enlarged European task force, for articulation of methodologies and, above all, validation/certification of analysis and the communication of results for population at large.<br>- New solutions/interventions: Coordination of national task forces to foster user-driven innovation and new science-based solutions, which will gain from an enlarged European task force.<br>- Vaccine/new therapies: Need for a major European task force and cooperation to help developing a vaccine and other potential therapies, with major Portuguese biochemical firms working already with international consortia, with tests in China and elsewhere.<br>- Science and society - Social remediation and promotion of social and human actions to foster social resilience: There is a need of European coordination of a task force on risk perception and the development of actions towards the promotion of scientific culture and social engagement towards resilient societies.<br>- Distance education and telework: The sudden strong development and engagement by all higher education institutions in Portugal, with a massive adoption of distance education schemes, highlights the need of European coordination of task force to foster the exchange of schemes, methodologies and practices.<br>There has been an active promotion and support to the Portuguese participation in the recent EC call of proposals on health and COVID-19 related topics for SMEs, by AICIB – National Agency for Clinical Research and Biomedical Innovation and the National Innovation Agency, ANI.<br>Portugal is also participating in a wider &#39;Task Force&#39; at EU level, with DG RTD, which has namely contributed to launch a funding line of 47,5 M€ on a new call on “SC1-PHECORONAVIRUS-2020: Advancing knowledge for the clinical and public health response to the [COVID-19] epidemic”.</td>
+    </tr>
+    <tr>
+      <th>South Africa</th>
+      <td>2020-03-29</td>
+      <td>The DSI is participating in several multilateral coordination platforms for facilitated by UNESCO, the OECD, and others.  The Department is also maintaining active contact with its sister ministries across the world and the diplomatic community in South Africa to share information and proactively identify opportunities for cooperation.   A specific focus is on African regional and continental cooperation.</td>
     </tr>
     <tr>
       <th>Spain</th>
@@ -138,18 +141,13 @@ table thead th {text-align: left;}
     </tr>
     <tr>
       <th>Sweden</th>
-      <td>2020-03-23</td>
+      <td>2020-03-28</td>
       <td>None at present, but science is always international and scientists are always having contacts with colleagues in the same area.</td>
     </tr>
     <tr>
       <th>Switzerland</th>
       <td>2020-03-27</td>
       <td>Switzerland is part of the European Open Science Cloud, which now is discussing the set-up of a European COVID-19 Data platform in close coordination with the WHO. Switzerland will contribute to this platform as soon as more information is available.<br><br>Many activities of individual organisations are going on. One example: In response to the Covid-19 crisis, EMBL-EBI is offering new services and especially Data Hub resources to the scientists from Member States. The Swiss community has been informed of the possibility and has shown interest in using the new services. The international research organisations in the area of life sciences (EMBL but also others like ELIXIR) have responded to the crisis not only by locking down most of their infrastructure to protect the staff but also by adopting strategies and offering new services in order to contribute to the ongoing research efforts to resolve the crisis.<br></td>
-    </tr>
-    <tr>
-      <th>Thailand</th>
-      <td>2020-03-27</td>
-      <td>-</td>
     </tr>
   </tbody>
 </table>

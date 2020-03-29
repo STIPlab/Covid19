@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,11 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                        { "width": "20%" },
+                        null
+                    ]
                 });
         } );
     </script>
@@ -38,12 +44,11 @@
 
     <h2><font color="0AA78E"><strong>Sweden</strong></font></h2>
     </br>
-    <p>Updated on: 2020-03-23</p>
+    <p>Updated on: 2020-03-28</p>
 
 <!--
 <p>Some text in case it's needed</p>
 -->
-
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -59,11 +64,11 @@
     </tr>
     <tr>
       <th>In what ways, if any, are you coordinating on Covid-19 STI responses at international level?</th>
-      <td>Non regarding research</td>
+      <td>None regarding research</td>
     </tr>
     <tr>
       <th>Do you have dedicated arrangements in place for communicating science advice and for refuting misleading information to the public on Covid-19?</th>
-      <td>No. the Research councils have information activities, but none specifically on what you ask for.</td>
+      <td>The Research councils do not have specific information activities on Covid-19.</td>
     </tr>
     <tr>
       <th>What new STI policy measures, if any, is your country taking to respond specifically to the Covid-19 crisis?</th>
@@ -71,7 +76,7 @@
     </tr>
     <tr>
       <th>At national level, what mechanisms are you developing or relying upon to bring together different STI actors (researchers, industry, government, health sector, foundations, etc.) to effectively collaborate on responses to Covid-19?</th>
-      <td>The Health sector is always in contact with research in relevant fields. The initiative by Medical universities and the research infrastructure SciLifeLab will make resources and laboratories available for tests and studies on Covid-19</td>
+      <td>The health sector is always in contact with research in relevant fields. The initiative by medical universities and the research infrastructure SciLifeLab will make resources and laboratories available for tests and studies on Covid-19</td>
     </tr>
     <tr>
       <th>At international level, what mechanisms are you developing or relying upon to bring together different STI actors (researchers, industry, government, health sector, foundations, etc.) to effectively collaborate on responses to Covid-19?</th>
@@ -79,7 +84,7 @@
     </tr>
     <tr>
       <th>What novel approaches, if any, is your country using to address the coronavirus crisis (e.g. use of machine learning, open science initiatives boosting access and sharing of data and research results, development and use of prediction models, etc.)?</th>
-      <td>Resources at Medical universities are made available for the Health care sector</td>
+      <td>Resources at medical universities are made available for the health care sector</td>
     </tr>
     <tr>
       <th>What impact on the STI system do you anticipate in the short-, medium- and long-term, and what measures are you implementing to address those?</th>

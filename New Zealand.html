@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,11 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                        { "width": "20%" },
+                        null
+                    ]
                 });
         } );
     </script>
@@ -43,7 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -63,11 +68,11 @@
     </tr>
     <tr>
       <th>Do you have dedicated arrangements in place for communicating science advice and for refuting misleading information to the public on Covid-19?</th>
-      <td>Advice to the public on COVID is led/communicated by NZ Prime Minister and the Ministry of Health, via regular press conferences, social media updates and a dedicated website https://covid19.govt.nz/ These communications are acting on the latest scientific advice.</td>
+      <td>Advice to the public on COVID is led/communicated by NZ Prime Minister and the Ministry of Health, via regular press conferences, social media updates and a dedicated website <a href="https://covid19.govt.nz/" target="_blank">https://covid19.govt.nz/</a> These communications are acting on the latest scientific advice.</td>
     </tr>
     <tr>
       <th>What new STI policy measures, if any, is your country taking to respond specifically to the Covid-19 crisis?</th>
-      <td>The New Zealand Health Research Council has issued two calls for research relating to COVID.  These can be found here https://www.hrc.govt.nz/news-and-events/covid-19-research-funding-opportunities-available-now</td>
+      <td>The New Zealand Health Research Council has issued two calls for research relating to COVID.  These can be found here <a href="https://www.hrc.govt.nz/news-and-events/covid-19-research-funding-opportunities-available-now" target="_blank">https://www.hrc.govt.nz/news-and-events/...</a></td>
     </tr>
     <tr>
       <th>At national level, what mechanisms are you developing or relying upon to bring together different STI actors (researchers, industry, government, health sector, foundations, etc.) to effectively collaborate on responses to Covid-19?</th>

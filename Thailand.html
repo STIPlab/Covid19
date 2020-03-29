@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,11 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                        { "width": "20%" },
+                        null
+                    ]
                 });
         } );
     </script>
@@ -43,7 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -75,7 +80,7 @@
     </tr>
     <tr>
       <th>At international level, what mechanisms are you developing or relying upon to bring together different STI actors (researchers, industry, government, health sector, foundations, etc.) to effectively collaborate on responses to Covid-19?</th>
-      <td>-</td>
+      <td>[Left blank]</td>
     </tr>
     <tr>
       <th>What novel approaches, if any, is your country using to address the coronavirus crisis (e.g. use of machine learning, open science initiatives boosting access and sharing of data and research results, development and use of prediction models, etc.)?</th>

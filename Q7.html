@@ -18,6 +18,8 @@
             text-align: center !important;
             padding: 20px
         }
+        
+        thead, th {text-align: left;}
     </style>
 
     <script>
@@ -26,7 +28,12 @@
                     responsive: true,
                     paging: false,
                     "aaSorting": [],
-                    "dom": 'frt'
+                    "dom": 'frt',
+                    "columns": [
+                    null,
+                    { "width": "8%" },
+                    null
+                    ]
                 });
         } );
     </script>
@@ -42,10 +49,6 @@
 <!--
 <p>Some text in case it's needed</p>
 -->
-<style>
-table thead th {text-align: left;} 
-
-</style>
 
 <table border="1" class="dataframe table-striped table-bordered" id="Qtable">
   <thead>
@@ -58,27 +61,27 @@ table thead th {text-align: left;}
   <tbody>
     <tr>
       <th>Austria</th>
-      <td>2020-03-27</td>
+      <td>2020-03-28</td>
       <td>All efforts by the OECD to foster collaboration and exchange of experience among its members are most welcome.</td>
     </tr>
     <tr>
       <th>Belgium</th>
-      <td>2020-03-27</td>
+      <td>2020-03-28</td>
       <td>Belgium pleads for great international solidarity during this crisis. All possibilities for international aid must be activated.<br> <br>Transparency and exchange of information are essential and existing networks should be used as much as possible such as the Early Warning and Response System (in Europe).<br></td>
     </tr>
     <tr>
       <th>Ireland</th>
-      <td>2020-03-27</td>
-      <td>No observations</td>
+      <td>2020-03-29</td>
+      <td>No observations.</td>
     </tr>
     <tr>
       <th>Italy</th>
-      <td>2020-03-27</td>
-      <td>The Ministry of University and Research has launched on March 23 a mapping activity, addressed to Universities and other Public Research Institutions, to collect information about all ongoing research projects and also on planned projects on SARS-Cov-2 and Covid-19. The scope of the initiative is to reduce fragmentation and prevent unnecessary duplications. The deadline to collect data has been set at 27 March EOB.</td>
+      <td>2020-03-29</td>
+      <td>The Ministry of University and Research has launched on March 23 a mapping activity, addressed to universities and other public research institutions, to collect information about all ongoing research projects and also on planned projects on SARS-Cov-2 and Covid-19. The scope of the initiative is to reduce fragmentation and prevent unnecessary duplication. The deadline to collect data has been set for 27 March.</td>
     </tr>
     <tr>
       <th>Korea</th>
-      <td>2020-03-27</td>
+      <td>2020-03-28</td>
       <td>Instead of travel bans or lockdown measures, Korea has actively tested asymptotic and suspected cases to mitigate COVID-19 outbreaks. What made Korea’s approach successful is regulatory flexibility that allowed innovative measures such as emergency approval (limited but prompt approval of production, sale and use of testing kits) and Drive-Thru testing.</td>
     </tr>
     <tr>
@@ -90,6 +93,11 @@ table thead th {text-align: left;}
       <th>New Zealand</th>
       <td>2020-03-26</td>
       <td>Please note we have only provided brief responses to this survey at this point in time as we consider the priority for those involved with managing the response is to focus on that.  We have therefore not consulted widely within various agencies responsible for managing the COVID response.</td>
+    </tr>
+    <tr>
+      <th>South Africa</th>
+      <td>2020-03-29</td>
+      <td>Building an evidence base on behavior and perceptions with regard to Covid-19 is an important priority.   Thought the Human Science Research Council (HSRC),  an online survey is conducted to better understand current behaviours and patterns.  As at 27 March 2020, about 2,400 people have responded to the survey. The sample size has increased but a statistician has been commissioned to assess the quality of the responses and data after which analysis can be done.   The public will be kept informed on the outcome of the results of this survey.  The HSRC is also currently pulling together a range of efforts in this space including work specifically focus on rural communities (SAPRIN), social media sentiment analysis using natural language processing techniques.   A number of researchers as well as private sector players have expressed a willingness to assist. Follow-ups are being made on how best they can support a national effort. A call has been made to survey companies in the private sector to join hands with government to better understand the behaviours and perceptions of our people.  Through the HSRC a system will be also be introduced of dynamic updates on behavior and perception issues as these will change on an almost daily basis.  The Department continue to update the public on measurers that it will continue to introduce working together with other government departments and social partners.</td>
     </tr>
     <tr>
       <th>Spain</th>
